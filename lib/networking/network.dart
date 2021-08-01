@@ -39,7 +39,6 @@ String uri='$coinuri/BTC/$selectedCurrency?apikey=$apikey';
     } else {
       return print(response.statusCode);
     }
-  } catch (error) {
     return print("error :$error");
   }
 }
